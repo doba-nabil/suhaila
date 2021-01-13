@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+body {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    text-align: right;
+}
+/************* header *******************/
+.product-single .column{
+    text-align: right;
+    float: right;
+}
+.product-single .left-icon {
+    display: inline-block;
+    float: right;
+    height: auto;
+    width: 7%;
+    padding: 1em;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.about span {
+    right: 28%;
+}
+.about-content {
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    right: 18%;
+    left: auto;
+    transform: translate(0%,50%);
+    z-index: 50;
+    text-align: right;
+}
+.about:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -0%;
+    left: 2%;
+    z-index: -1;
+    background: url("../images/about-back.jpg") center center no-repeat;
+    transform: rotate(180deg);
+}
+.content-content {
+    text-align: right;
+}
+.owl-carousel{
+    direction: ltr;
+}
+.footer-subscribe input {
+    text-align: right;
+}
+.menu-toggler {
+    direction: ltr;
+    right: 5rem;
+    left: auto;
+}
+#contact .form-horizontal {
+    direction: rtl;
+    text-align: right;
+}
+#contact .contact-wrapper{
+    direction: ltr;
+}
+.fa-sign-out-alt{
+    transform: rotateY(180deg);
+}
+/******* language *******/
+#fixed-social {
+    position: fixed;
+    top: 0%;
+    z-index: 999999999999;
+    border-radius:0 0 0 10px ;
+    overflow: hidden;
+}
+/*****************************/
+.css-typing .btn , .content-content .btn{
+    font-family: 'Tajawal', sans-serif;
+}
+.css-typing h4 {
+    font-family: 'Tajawal', sans-serif;
+	font-size:50px
+}
+.products-tabs .nav-tabs .nav-link{
+	font-family: 'Tajawal', sans-serif;
+}
+.content-content .custom-title , .content-content .custom-subtitle,.content-content .custom-desc,footer .footer-subscribe-footer,.footer-subscribe button,.footer-subscribe input
+,.center-footer .web-links li a,.nav-link{
+	font-family: 'Tajawal', sans-serif;
+}
+.content-content .custom-desc , .video-content .video-desc,.about-content .about-desc{
+	font-family: 'Tajawal', sans-serif;
+
+font-size:14px
+}
+.video-content .video-title , .content-content .custom-title,.about-content .about-title,footer .footer-subscribe-header{
+	font-weight:bolder;
+	font-family: 'Tajawal', sans-serif;
+}
+
+@media only screen and (max-width: 700px) and (min-width: 320px){
+    .menu-toggler {
+        position: absolute;
+        top: 3rem!important;
+        right: 3rem!important;
+    }
+}
+/******** social footer **********/
+.footer-contact-info li.mail:before , .footer-contact-info li.phone:before{
+    float: right;
+    margin: 0 -15px 0px 5px;
+}
